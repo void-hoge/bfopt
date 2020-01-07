@@ -3,11 +3,6 @@
 #include <vector>
 #include <string>
 
-class instruction {
-	size_t ptr;
-	size_t 
-};
-
 class compiler {
 private:
 	std::vector<char> prg;

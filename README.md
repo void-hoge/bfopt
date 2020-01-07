@@ -10,7 +10,8 @@
 - ### ins
 	最適化した命令の配列
 
-## class instruction
+## class instruct
+コンパイラの後で実装する。
 - ### type
 	- nop
 		- no operation
@@ -24,3 +25,11 @@
 		- gotoになる前の[
 	- gotof
 		- gotoになる前の]
+
+## bf compiler
+brainfuck->Cのコンパイラ  
+愚直に変換して投げるだけでもそこそこ速くなるのでさらなる高速化を目指す。
+- #### 0初期化
+	mandelbrotでは、10%ほど速くなった。
+- #### +-><を1命令にまとめる。
+- ####
